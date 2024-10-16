@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+nav ul li {
+    margin: 0 1.5rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+.section {
+    padding: 3rem;
+    background-color: #fff;
+    margin: 2rem auto;
+    max-width: 1000px;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.project, .skills {
+    margin-bottom: 1.5rem;
+}
+
+.skills ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.skills ul li {
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label, form input, form textarea {
+    margin-bottom: 1rem;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.7rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+.social {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.social a {
+    color: #333;
+    margin: 0 1rem;
+    font-size: 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    margin-top: 2rem;
+}
